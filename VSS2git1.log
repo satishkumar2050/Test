@@ -1,0 +1,45 @@
+VSS2Git version 1.0.10.0
+VSS encoding: Western European (Windows) (CP: 1252, IANA: Windows-1252)
+Comment transcoding: enabled
+------------------------------------------------------------
+Building revision list
+Root project: $/Test
+Excluded files: 
+------------------------------------------------------------
+Analysis complete in 00:00:00
+Projects: 1 (0 excluded)
+Files: 1 (0 excluded)
+Revisions: 5
+------------------------------------------------------------
+Building changesets
+------------------------------------------------------------
+Changeset 1 - 04/03/2020 17:25:30 (0 secs) Suresh 1 files
+
+  04/03/2020 17:25:30 $Test(BAAAAAAA)@1 Create $Test(BAAAAAAA)
+------------------------------------------------------------
+Changeset 2 - 04/03/2020 17:26:28 (0 secs) Suresh 2 files
+first checking
+
+  04/03/2020 17:26:28 $Test(BAAAAAAA)@2 Add Test.txt(CAAAAAAA)
+  04/03/2020 17:26:28 Test.txt(CAAAAAAA)@1 Create Test.txt(CAAAAAAA)
+NOTE: Using same-comment threshold (106 second gap):
+------------------------------------------------------------
+Changeset 3 - 04/03/2020 17:34:42 (106 secs) Suresh 2 files
+check in second time
+
+  04/03/2020 17:32:56 Test.txt(CAAAAAAA)@2 Edit CAAAAAAA
+  04/03/2020 17:34:42 Test.txt(CAAAAAAA)@3 Edit CAAAAAAA
+------------------------------------------------------------
+Found 3 changesets in 00:00:00
+------------------------------------------------------------
+Initializing Git repository
+Executing: C:\Program Files\Git\bin\git.exe init
+>Initialized empty Git repository in C:/git migration/.git/
+Replaying changeset 1 from 04/03/2020 17:25:30
+Replaying changeset 2 from 04/03/2020 17:26:28
+C:\git migration\Test: Add Test.txt
+Executing: C:\Program Files\Git\bin\git.exe add -- "C:\git migration\Test\Test.txt"
+Committing changeset 2 from 04/03/2020 17:26:28
+Executing: C:\Program Files\Git\bin\git.exe add -A
+Generating temp file for comment: first checking
+Executing: C:\Program Files\Git\bin\git.exe commit -F C:\Users\Suresh\AppData\Local\Temp\tmpA229.tmp
